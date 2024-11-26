@@ -1,5 +1,7 @@
 # Grid Health Index Prediction for Dynamic Security Analysis
 
+![Single Line Diagram](images/IEEE118-Diagram.png)
+
 ## Table of Contents
 1. [Key Features](#key-features)
 2. [Repository Overview](#repository-overview)
