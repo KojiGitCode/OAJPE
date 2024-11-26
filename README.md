@@ -5,12 +5,8 @@
 1. [Key Features](#key-features)
 2. [Repository Overview](#repository-overview)
 3. [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-4. [Usage](#usage)
-    - [Datasets](#1-datasets)
-    - [Pre-Trained Models](#2-pre-trained-models)
-    - [Running the Code](#3-running-the-code)
+    - [Pre-Trained Models](#1-pre-trained-models)
+    - [Running the Code](#2-running-the-code)
 5. [Results](#results)
 6. [Contributing](#contributing)
 7. [License](#license)
@@ -29,8 +25,4 @@ This repository contains ...
 ### Prerequisites
 - Python 3.8 or later ...
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YourUsername/GridHealthIndexPrediction.git
 
