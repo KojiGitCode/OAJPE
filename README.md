@@ -1,5 +1,4 @@
-# Grid Health Index Prediction for Dynamic Security Analysis
-
+# Machine Learning Datasets and Models for Grid Health Index Prediction Using GAT Models
 ![Single Line Diagram](images/IEEE118-Diagram.png)
 
 ## Table of Contents
