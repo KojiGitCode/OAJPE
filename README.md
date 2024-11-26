@@ -1,4 +1,4 @@
-# Machine Learning Datasets and Models for Grid Health Index Prediction Using GAT Models
+# Machine Learning Datasets and Models for Grid Health Index Prediction Using Graph Attention (GAT) Models
 ![Single Line Diagram](images/IEEE118-Diagram.png)
 
 ## Table of Contents
