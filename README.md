@@ -35,7 +35,7 @@ I appreciate your effort in making this task better, no matter how small the con
 ## License
 No license is needed.
 
-## Acknowledgements
+## Acknowledgments
 This code was developed with sponsorship from the Electric Power Research Institute under agreement 10015026.
 
 ## Contact
