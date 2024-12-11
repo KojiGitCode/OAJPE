@@ -51,7 +51,7 @@ The Python code allows users to specify:
 These settings can be reflected using the argument of the Python code when running.
 For example, when selecting the pseudo-PMU measurement method with the error percentage of 1\%, please type:
 
-python GAT500.py --imp 2 --mdl GAT --enc Y --per 1
+*python GAT500.py --imp 2 --mdl GAT --enc Y --per 1*
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
