@@ -44,9 +44,9 @@ There are two Python codes for frequency health index and angle health index.
 ### Detailed Testing Procedure
 #### Frequency Health Index
 The Python code allows users to specify:
-- imputation methods (using --imp)
-- ordinal encoder usage (using --enc)
-- error percentage when the pseudo-PMU measurement method is employed (using --per)
+- imputation methods (using --imp; 0: zero imputation, 1: peak value replacement, 2: Pesudo PMU measurement)
+- ordinal encoder usage (using --enc; Y: with ordinal encoder, N: without ordinal encoder)
+- error percentage when the pseudo-PMU measurement method is employed (using --per; in a range between 0 and 100)
 
 These settings can be reflected using the argument of the Python code when running.
 For example, when selecting the pseudo-PMU measurement method with the error percentage of 1\%, please type:
@@ -55,7 +55,7 @@ For example, when selecting the pseudo-PMU measurement method with the error per
 
 Currently, only GAT models are available on \AllDatset\OffTheShelfModel.
 
-So, *"--mdl GAT"* is needed (GAT stands for the use of Graph attention network model) 
+So, *"--mdl GAT"* is  (GAT stands for the use of Graph attention network model) 
 
 Please ensure the order of these arguments. The code does not work when the order is different.
 
