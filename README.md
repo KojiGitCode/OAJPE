@@ -19,7 +19,7 @@
 This repository includes:
 - Training and testing datasets
 - 25,225 power flow snapshots [^1]
-- Dynamic simulation results at 40% and 100% load conditions [^2]
+- Dynamic simulation results at 40% and 100% load conditions with even and uneven generation dispatches, respectively [^2]
 - Graph attention network models for frequency/angle health index
 - Python code for evaluating frequency/angle health index
 [^1]: Nodes are augmented to explicitly implement step-up and step-down transformers.
