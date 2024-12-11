@@ -16,7 +16,12 @@
 ---
 
 ## Key Features
-This repository provides a ...
+This repository provides:
+[1] All datasets that consist of training datasets and testing datasets
+[2] All power flow snapshots (25225 cases in total)
+[3] All dynamic simulation results at 40% and 100% load conditions
+[4] Created Graph attention network models for frequency/angle health index
+[5] Python code for testing for frequency/angle health index 
 
 ## Repository Overview
 This repository contains ...
