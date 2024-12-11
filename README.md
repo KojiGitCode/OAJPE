@@ -6,8 +6,9 @@
 2. [Repository Overview](#repository-overview)
 3. [Getting Started](#getting-started)
     - [Prerequisites](#1-Prerequisites)
-    
 4. [Results and Reproducibility](#results-and-reproducibility)
+    - [Power Flow Snapshot](#1-Power-flow-snapshot)
+    - [Detailed Testing Procedure](#2-Detailed-testing-procedure)
 5. [Contributing](#contributing)
 6. [License](#license)
 7. [Acknowledgments](#acknowledgments)
