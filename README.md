@@ -25,7 +25,7 @@ This repository includes:
 [^1]: Results at other load conditions (45, 50, ... 95%) are available upon request. Please email me [#Contact](#contact) for further inquiries.
 
 ## Repository Overview
-This repository contains ...
+This repository provides datasets, power flow snapshots, and dynamic simulation results at 40% and 100% load conditions. It includes pre-trained models using Graph Attention Networks (GAT) for frequency/angle health index prediction and Python code for evaluating these health indices. The codebase is intended for researchers and practitioners working on grid health monitoring and network analysis.
 
 ## Getting Started
 ### Prerequisites
