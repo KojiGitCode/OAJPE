@@ -5,7 +5,7 @@
 1. [Key Features](#key-features)
 2. [Repository Overview](#repository-overview)
 3. [Getting Started](#getting-started)
-    - [Pre-Trained Models](#1-Prerequisites)
+    - [Prerequisites](#1-Prerequisites)
     
 4. [Results and Reproducibility](#results-and-reproducibility)
 5. [Contributing](#contributing)
