@@ -46,9 +46,11 @@ There are two Python codes for the frequency health index and angle health index
 ### Detailed Testing Procedure
 #### Frequency Health Index
 The Python code allows users to specify:
-- imputation methods (using --imp; 0: zero imputation, 1: peak value replacement, 2: Pesudo PMU measurement)
-- ordinal encoder usage (using --enc; Y: with ordinal encoder, N: without ordinal encoder)
-- error percentage when the pseudo-PMU measurement method is employed (using --per; in a range between 0 and 100)
+
+- Imputation methods (using `--imp`): 0 for zero imputation, 1 for peak value replacement, 2 for pseudo-PMU measurement.
+- Ordinal encoder usage (using `--enc`): `Y` for with ordinal encoder, `N` for without ordinal encoder.
+- Error percentage when the pseudo-PMU measurement method is employed (using `--per`): a range between 0 and 100.
+
 
 These settings can be reflected using the argument of the Python code when running.
 For example, when selecting the pseudo-PMU measurement method with the error percentage of 1\%, please type:
