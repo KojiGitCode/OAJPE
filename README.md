@@ -40,8 +40,8 @@ Python codes for the testing are available under \AllDataset\TestingOnly\.
 There are two Python codes for the frequency health index and angle health index.
 
 ### Power Flow Snapshot
-- The impedance data (100 MVA base) is available [here](AllDataset/PowerFlowSnapshot/SystemData.txt).
-- All data are based on per unit with 100 MVA base.
+- The impedance data is available [here](AllDataset/PowerFlowSnapshot/SystemData.txt). Note that all data are based on per unit with 100 MVA base.
+- Power flow results are available [here](AllDataset/PowerFlowSnapshot/PowerFlowSnapshot.7z). 
 
 ### Detailed Testing Procedure
 #### Frequency Health Index
