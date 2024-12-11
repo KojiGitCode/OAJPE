@@ -39,10 +39,19 @@ This repository provides datasets, power flow snapshots, and dynamic simulation 
 Python codes for the testing are available under \AllDataset\TestingOnly\.
 There are two Python codes for frequency health index and angle health index.
 
-### Power Flow Snapshort
+### Power Flow Snapshot
 
 ### Detailed Testing Procedure
 #### Frequency Health Index
+The Python code allows users to specify:
+- imputation methods
+- ordinal encoder usage
+- error percentage when the pseudo-PMU measurement method is employed
+
+These settings can be reflected using the argument of the Python code when running.
+For example, when selecting the pseudo-PMU measurement method with the error percentage of 1\%, please type:
+
+python GAT500.py --imp 2 --mdl GAT --enc Y --per 1
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
