@@ -53,8 +53,11 @@ For example, when selecting the pseudo-PMU measurement method with the error per
 
 *python GAT500.py --imp 2 --mdl GAT --enc Y --per 1*
 
-Currently, only GAT models are available on \AllDatset\OffTheShelfModel
+Currently, only GAT models are available on \AllDatset\OffTheShelfModel.
+
 So, *"--mdl GAT"* is needed (GAT stands for the use of Graph attention network model) 
+
+Please ensure the order of these arguments. The code does not work when the order is different.
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
