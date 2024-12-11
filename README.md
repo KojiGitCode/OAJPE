@@ -6,9 +6,9 @@
 2. [Repository Overview](#repository-overview)
 3. [Getting Started](#getting-started)
     - [Prerequisites](#1-Prerequisites)
-4. [Results and Reproducibility](#results-and-reproducibility)
-    - [Power Flow Snapshot](#1-Power-flow-snapshot)
-    - [Detailed Testing Procedure](#2-Detailed-testing-procedure)
+4. [Results and Reproducibility](#results-and-reproducibility)  
+    - [Power Flow Snapshot](#1-power-flow-snapshot)  
+    - [Detailed Testing Procedure](#2-detailed-testing-procedure) 
 5. [Contributing](#contributing)
 6. [License](#license)
 7. [Acknowledgments](#acknowledgments)
@@ -36,12 +36,12 @@ This repository provides datasets, power flow snapshots, and dynamic simulation 
 - PyTorch Geometric 2.3.0 or later
 - 48 GB or more GPU memory is recommended when training the model.
 
-## Results and Reproducibility
-Python codes for the testing are available under \AllDataset\TestingOnly\.
-There are two Python codes for the frequency health index and angle health index.
+## Results and Reproducibility  
+Python codes for the testing are available under \AllDataset\TestingOnly\.  
+There are two Python codes for the frequency health index and angle health index.  
 
-### Power Flow Snapshot
-- The impedance data is available [here](AllDataset/PowerFlowSnapshot/SystemData.txt). Note that all data are based on per unit with 100 MVA base.
+### Power Flow Snapshot  
+- The impedance data is available [here](AllDataset/PowerFlowSnapshot/SystemData.txt). Note that all data are based on per unit with a 100 MVA base.  
 - Power flow results are available [here](AllDataset/PowerFlowSnapshot/PowerFlowSnapshot.7z). 
 
 ### Detailed Testing Procedure
@@ -58,9 +58,7 @@ For example, when selecting the pseudo-PMU measurement method with the error per
 
 ```python GAT500.py --imp 2 --mdl GAT --enc Y --per 1```
 
-Currently, only GAT models are available on \AllDatset\OffTheShelfModel.
-
-So, *"--mdl GAT"* is  (GAT stands for the use of Graph attention network model) 
+Currently, only GAT models are available on \AllDatset\OffTheShelfModel. *"--mdl GAT"* is typed for using the graph attention network model. 
 
 Please ensure the order of these arguments. The code does not work when the order is different.
 
