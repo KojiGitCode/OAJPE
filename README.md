@@ -23,7 +23,12 @@ This repository contains ...
 
 ## Getting Started
 ### Prerequisites
-- Python 3.8 or later ...
+- Python 3.10 or later
+- PyTorch 2.0.1 or later
+- PyTorch Geometric 2.3.0 or later
+- 48 GB or more GPU memory is recommended when training the model.
+
+## Results
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
@@ -33,7 +38,7 @@ Submit a pull request if you'd like to share your updates or fixes.
 I appreciate your effort in making this task better, no matter how small the contribution.
 
 ## License
-No license is needed.
+You are free to use this code without any restrictions. However, if you utilize the training dataset, please cite this repository in your work.
 
 ## Acknowledgments
 This code was developed with sponsorship from the Electric Power Research Institute under agreement 10015026.
