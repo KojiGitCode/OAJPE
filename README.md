@@ -38,6 +38,9 @@ This repository provides datasets, power flow snapshots, and dynamic simulation 
 Python codes for the testing are available under \AllDataset\TestingOnly\.
 There are two Python codes for frequency health index and angle health index.
 
+### Detailed Procedure
+#### Frequency Health Index
+
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
 
