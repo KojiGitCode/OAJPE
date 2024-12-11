@@ -7,7 +7,7 @@
 3. [Getting Started](#getting-started)
     - [Pre-Trained Models](#1-pre-trained-models)
     - [Running the Code](#2-running-the-code)
-5. [Results](#results)
+5. [Results](#results and reproducibility)
 6. [Contributing](#contributing)
 7. [License](#license)
 8. [Acknowledgments](#acknowledgments)
@@ -28,7 +28,9 @@ This repository contains ...
 - PyTorch Geometric 2.3.0 or later
 - 48 GB or more GPU memory is recommended when training the model.
 
-## Results
+## Results and Reproducibility
+Python codes for the testing are available under \AllDataset\TestingOnly\.
+There are two Python codes for frequency health index and angle health index.
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
