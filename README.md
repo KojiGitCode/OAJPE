@@ -25,6 +25,11 @@ This repository contains ...
 ### Prerequisites
 - Python 3.8 or later ...
 
+## License
+No license is needed.
+
+## Acknowledgements
+This code was developed with sponsorship from the Electric Power Research Institute under agreement 10015026.
 
 ## Contact
 For further contact, email kyamashi@ucr.edu and koji.yamashita.jp@ieee.org
