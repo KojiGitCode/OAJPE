@@ -5,8 +5,8 @@
 1. [Key Features](#key-features)
 2. [Repository Overview](#repository-overview)
 3. [Getting Started](#getting-started)
-    - [Pre-Trained Models](#1-pre-trained-models)
-    - [Running the Code](#2-running-the-code)
+    - [Pre-Trained Models](#1-Prerequisites)
+    
 4. [Results and Reproducibility](#results-and-reproducibility)
 5. [Contributing](#contributing)
 6. [License](#license)
