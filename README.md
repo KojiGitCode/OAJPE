@@ -18,11 +18,12 @@
 ## Key Features
 This repository includes:
 - Training and testing datasets
-- 25,225 power flow snapshots
-- Dynamic simulation results at 40% and 100% load conditions [^1]
+- 25,225 power flow snapshots [^1]
+- Dynamic simulation results at 40% and 100% load conditions [^2]
 - Graph attention network models for frequency/angle health index
 - Python code for evaluating frequency/angle health index
-[^1]: Results at other load conditions (45, 50, ... 95%) are available upon request. Please email me [#Contact](#contact) for further inquiries.
+[^1]: Nodes are augmented to explicitly implement step-up and step-down transformers.
+[^2]: Results at other load conditions (45, 50, ... 95%) are available upon request. Please email me [#Contact](#contact) for further inquiries.
 
 ## Repository Overview
 This repository provides datasets, power flow snapshots, and dynamic simulation results at 40% and 100% load conditions. It includes pre-trained models using Graph Attention Networks (GAT) for frequency/angle health index prediction and Python code for evaluating these health indices. The codebase is intended for researchers and practitioners working on grid health monitoring and network analysis.
@@ -38,7 +39,9 @@ This repository provides datasets, power flow snapshots, and dynamic simulation 
 Python codes for the testing are available under \AllDataset\TestingOnly\.
 There are two Python codes for frequency health index and angle health index.
 
-### Detailed Procedure
+### Power Flow Snapshort
+
+### Detailed Testing Procedure
 #### Frequency Health Index
 
 ## Contributing
