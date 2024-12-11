@@ -37,10 +37,11 @@ This repository provides datasets, power flow snapshots, and dynamic simulation 
 
 ## Results and Reproducibility
 Python codes for the testing are available under \AllDataset\TestingOnly\.
-There are two Python codes for frequency health index and angle health index.
+There are two Python codes for the frequency health index and angle health index.
 
 ### Power Flow Snapshot
-
+- The impedance data (*100 MVA base*) is available at \AllDataset\PowerFlowSnapshot\SystemData.txt
+- 
 ### Detailed Testing Procedure
 #### Frequency Health Index
 The Python code allows users to specify:
