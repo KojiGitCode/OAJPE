@@ -22,7 +22,7 @@ This repository includes:
 - Dynamic simulation results at 40% and 100% load conditions [^1]
 - Graph attention network models for frequency/angle health index
 - Python code for evaluating frequency/angle health index
-[^1]: Results at other load conditions (45, 50, ... 95%) are available upon request. Please email me (#Contact)
+[^1]: Results at other load conditions (45, 50, ... 95%) are available upon request. Please email me [#Contact](#contact) for further inquiries.
 
 ## Repository Overview
 This repository contains ...
