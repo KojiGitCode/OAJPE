@@ -7,11 +7,11 @@
 3. [Getting Started](#getting-started)
     - [Pre-Trained Models](#1-pre-trained-models)
     - [Running the Code](#2-running-the-code)
-5. [Results](#results and reproducibility)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Acknowledgments](#acknowledgments)
-9. [Contact](#contact)
+4. [Results and Reproducibility](#results-and-reproducibility)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Acknowledgments](#acknowledgments)
+8. [Contact](#contact)
  
 ---
 
