@@ -50,7 +50,7 @@ There are two Python codes for the frequency health index and angle health index
 
 Here are the directory trees.
 
-<pre>
+<pre style="line-height: 1;">
     Sample_Datasets/
 
     ├── GAT500b.py
