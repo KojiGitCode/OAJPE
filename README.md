@@ -89,12 +89,12 @@ The subfolder name shows the type of contingencies shown below:
 - Plant means the type of outage, i.e., power plant outages.
 - Subsequent letter shows the type of synchronous machines: Synchronous generators (G), Synchronous condensers (S)
 - Subsequent 4 letters indicate the type of power plants:
-+ AGC: Advanced Gas Combined cycle power plant
-+ RORH: Run-off-River Hydropower Plant
-+ coal: Coal-fired Power Plant
-+ GasT: Gas Turbine Power Plant
-+ hydr: Hydropower Plant
-+ cond: Synchronous condenser 
+    + AGC: Advanced Gas Combined cycle power plant
+    + RORH: Run-off-River Hydropower Plant
+    + coal: Coal-fired Power Plant
+    + GasT: Gas Turbine Power Plant
+    + hydr: Hydropower Plant
+    + cond: Synchronous condenser 
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
