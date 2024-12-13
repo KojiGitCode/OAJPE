@@ -66,7 +66,11 @@ Please ensure the order of these arguments. The code does not work when the orde
 ### Dynamic Simulation
 Dynamic simulation results are available [here](AllDataset/DynamicSimulation/).
 There are 9 files in this directory.
-The first three digits correspond to the fault duration with the unit of milliseconds.
+
+- The first three digits correspond to the fault duration with the unit of milliseconds.
+- The fourth through sixth letters indicate a type of contingencies, i.e., "N-1" contingencies.
+- The eighth through tenth digits display the loading levels, e.g., *040* for 40% loading level.
+- The eleventh letter of *u*, if any, means the unbalanced dispatching cases.
 
 
 ## Contributing
