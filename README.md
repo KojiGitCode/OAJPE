@@ -75,11 +75,26 @@ There are 9 compressed files in this directory.
 Under each compressed file, over 300 subfolders are present.
 The subfolder name shows the type of contingencies shown below:
 
-1\. Line Trip Event
+1\. Line Outage Event
 - L1S means line trip events
-- Subsequent 6 digits indicate the from Node and to Node, respectively.
+- Subsequent 6 digits indicate the *from* Node and *to* Node, respectively.
 - F0.5 means that a fault is applied at 50% of the line.
-- 
+
+2\. Transformer Outage Event 
+- Trans means the type of outage, i.e., transformer outages.
+- Subsequent 4 digits indicate the *from* Node and *to* Node.
+- R0.1 means the fault impedance (specifically resistance) of 0.1 per unit at the fault location. Note that the fault is an internal fault, e.g., intertern faults.
+
+3\. Power Plant Outage Event
+- Plant means the type of outage, i.e., power plant outages.
+- Subsequent letter shows the type of synchronous machines: Synchronous generators (G), Synchronous condensers (S)
+- Subsequent 4 letters indicate the type of power plants:
++ AGC: Advanced Gas Combined cycle power plant
++ RORH: Run-off-River Hydropower Plant
++ coal: Coal-fired Power Plant
++ GasT: Gas Turbine Power Plant
++ hydr: Hydropower Plant
++ cond: Synchronous condenser 
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
