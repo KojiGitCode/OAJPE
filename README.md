@@ -75,7 +75,7 @@ Here are the directory trees.
             ├── N-1FullList.txt
 </pre>
 
-- The Python code is located at [here](AllDataset/TestingOnly/FrequecyHealthIndex/).
+- The Python code is located at [here](AllDataset/TestingOnly/FrequencyHealthIndex/GAT500b.py).
 - The off-the-shelf model is stored at [here](AllDataset/FrequencyHealthIndex/).
 - Files with a *.lst* extension are stored at [here](AllDataset/TestingOnly/ListFiles/).
 - 
