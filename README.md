@@ -72,7 +72,14 @@ There are 9 compressed files in this directory.
 - The eighth through tenth digits display the loading levels, e.g., *040* for 40% loading level.
 - The eleventh letter of *u*, if any, means the unbalanced dispatching cases.
 
+Under each compressed file, over 300 subfolders are present.
+The subfolder name shows the type of contingencies shown below:
 
+1\. Line Trip Event
+- L1S means line trip events
+- Subsequent 6 digits indicate the from Node and to Node, respectively.
+- F0.5 means that a fault is applied at 50% of the line.
+- 
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
