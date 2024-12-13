@@ -64,6 +64,7 @@ Currently, only GAT models are available on \AllDatset\OffTheShelfModel. *"--mdl
 Please ensure the order of these arguments. The code does not work when the order is different.
 
 ### Dynamic Simulation
+Dynamic simulation results are available [here](AllDataset/DynamicSimulation/)
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
