@@ -47,6 +47,13 @@ There are two Python codes for the frequency health index and angle health index
 
 ### Detailed Testing Procedure
 #### Frequency Health Index
+
+Sample_Datasets/
+├── GAT500b.py
+├── Freq/
+    ├── F1index/
+    ├── TestingDataset/
+
 The Python code allows users to specify:
 
 - Imputation methods (using `--imp`): 0 for zero imputation, 1 for peak value replacement, 2 for pseudo-PMU measurement.
