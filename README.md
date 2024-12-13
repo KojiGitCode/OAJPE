@@ -52,19 +52,12 @@ Here are the directory trees.
 
 <pre style="line-height: 1;">
     Sample_Datasets/
-
     ├── GAT500b.py
-
     ├── Freq/
-
         ├── PMUmiss.lst
-
         ├── PMUmissLD.lst
-
         ├── PMUmissSC.lst
-    
         ├── F1index/
-
         ├── TestingDataset/
 </pre>
 
