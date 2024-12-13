@@ -51,8 +51,8 @@ There are two Python codes for the frequency health index and angle health index
 Here are the directory trees.
 
 <pre style="line-height: 1;">
+    GAT500b.py
     Sample_Datasets/
-    ├── GAT500b.py
     ├── Freq/
         ├── PMUmissLD.lst
         ├── PMUmissSC.lst
@@ -75,6 +75,8 @@ Here are the directory trees.
             ├── N-1FullList.txt
 </pre>
 
+The Python code is located at [here](AllDataset/TestingOnly/FrequecyHealthIndex).
+The off-the-shelf model is stored at [here](AllDataset/FrequencyHealthIndex).
 
 
 The Python code allows users to specify:
