@@ -50,21 +50,21 @@ There are two Python codes for the frequency health index and angle health index
 
 Here are the directory trees.
 
-Sample_Datasets/
+    Sample_Datasets/
 
-├── GAT500b.py
+    ├── GAT500b.py
 
-├── Freq/
+    ├── Freq/
 
-    ├── PMUmiss.lst
+        ├── PMUmiss.lst
 
-    ├── PMUmissLD.lst
+        ├── PMUmissLD.lst
 
-    ├── PMUmissSC.lst
+        ├── PMUmissSC.lst
     
-    ├── F1index/
+        ├── F1index/
 
-    ├── TestingDataset/
+        ├── TestingDataset/
 
 
 
