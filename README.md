@@ -80,6 +80,8 @@ Here are the directory trees.
 - Files with a *.lst* extension are stored at [here](AllDataset/TestingOnly/ListFiles/).
 - Files with a *.csv* extension are compressed as a 7z-file locatted at [here](AllDataset/TestingOnly/FrequencyHealthIndex/).
 
+Please deploy these files referring to the above directory trees.
+
 The Python code allows users to specify:
 
 - Imputation methods (using `--imp`): 0 for zero imputation, 1 for peak value replacement, 2 for pseudo-PMU measurement.
