@@ -76,9 +76,9 @@ Here are the directory trees.
 </pre>
 
 - The Python code is located at [here](AllDataset/TestingOnly/FrequencyHealthIndex/GAT500b.py).
-- The off-the-shelf model is stored at [here](AllDataset/FrequencyHealthIndex/).
+- The off-the-shelf model is stored at [here](AllDataset/FrequencyHealthIndex/). A file with a *.pth* extension denotes the model, while a file with a *.enc* denotes a flag file for the use of the ordinal encoder.
 - Files with a *.lst* extension are stored at [here](AllDataset/TestingOnly/ListFiles/).
-- 
+- Files with a *.csv* extension are compressed as a 7z-file locatted at [here](AllDataset/TestingOnly/FrequencyHealthIndex/).
 
 The Python code allows users to specify:
 
