@@ -99,6 +99,7 @@ The subfolder name shows the type of contingencies shown below:
 Under each folder, 13 time series files are stored with the file extension name "dat."
 Each file has a time column and 3-8 node voltage time-series responses.
 Headers indicate the node number that corresponds to the single-line diagram in this readme.
+For example, VT_107 means the node voltage response at Bus 107.
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
