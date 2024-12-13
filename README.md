@@ -43,7 +43,7 @@ There are two Python codes for the frequency health index and angle health index
 
 ### Power Flow Snapshot  
 - The impedance data is available [here](AllDataset/PowerFlowSnapshot/SystemData.txt). Note that all data are based on per unit with a 100 MVA base.  
-- Power flow results are available [here](AllDataset/PowerFlowSnapshot/PowerFlowSnapshot.7z). 
+- Power flow results are available [here](AllDataset/PowerFlowSnapshot/). 
 
 ### Detailed Testing Procedure
 #### Frequency Health Index
@@ -64,7 +64,10 @@ Currently, only GAT models are available on \AllDatset\OffTheShelfModel. *"--mdl
 Please ensure the order of these arguments. The code does not work when the order is different.
 
 ### Dynamic Simulation
-Dynamic simulation results are available [here](AllDataset/DynamicSimulation/)
+Dynamic simulation results are available [here](AllDataset/DynamicSimulation/).
+There are 9 files in this directory.
+The first three digits correspond to the fault duration with the unit of milliseconds.
+
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
