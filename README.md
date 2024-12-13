@@ -70,6 +70,9 @@ Here are the directory trees.
             ├── AllFeatire_GCN_DPL.nod.csv
             ...
             ├── AllFeatire_GCN_VM.node.csv
+            ├── EdgeIndex.csv
+            ├── Labels_GCN_Freq.inx.csv
+            ├── N-1FullList.txt
 </pre>
 
 
