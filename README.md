@@ -66,7 +66,7 @@ Here are the directory trees.
         ├── F1index/
 
         ├── TestingDataset/
-    <pre>
+    </pre>
 
 
 The Python code allows users to specify:
