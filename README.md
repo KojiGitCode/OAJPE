@@ -8,7 +8,8 @@
     - [Prerequisites](#1-Prerequisites)
 4. [Results and Reproducibility](#results-and-reproducibility)  
     - [Power Flow Snapshot](#1-power-flow-snapshot)  
-    - [Detailed Testing Procedure](#2-detailed-testing-procedure) 
+    - [Detailed Testing Procedure](#2-detailed-testing-procedure)
+    - [Dynamic Simulation](#3-dynamic-simulation) 
 5. [Contributing](#contributing)
 6. [License](#license)
 7. [Acknowledgments](#acknowledgments)
@@ -61,6 +62,8 @@ For example, when selecting the pseudo-PMU measurement method with the error per
 Currently, only GAT models are available on \AllDatset\OffTheShelfModel. *"--mdl GAT"* is typed for using the graph attention network model. 
 
 Please ensure the order of these arguments. The code does not work when the order is different.
+
+### Dynamic Simulation
 
 ## Contributing
 Thank you for your interest in improving this work! If you have ideas or suggestions:
