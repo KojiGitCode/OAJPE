@@ -66,6 +66,10 @@ Here are the directory trees.
             ├── ENN32BNN64GATH4LR0.0001Enc1A.pth    
             ├── ENN32BNN64GATH4LR0.0001Enc1A.enc    
         ├── TestingDataset/
+            ├── AllFeatire_GCN_DPG.nod.csv
+            ├── AllFeatire_GCN_DPL.nod.csv
+            ...
+            ├── AllFeatire_GCN_VM.node.csv
 </pre>
 
 
