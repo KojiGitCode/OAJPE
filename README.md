@@ -98,7 +98,59 @@ Currently, only GAT models are available on \AllDatset\OffTheShelfModel. *"--mdl
 
 Please ensure the order of these arguments. The code does not work when the order is different.
 
-#### Angle Health Index
+#### Angle Health Index (Between Buses 10 and 12)
+
+Here are the directory trees.
+
+<pre style="line-height: 1;">
+    GAT800a.py
+    Sample_Datasets/
+    ├── Angl/
+        ├── PMUmissLD.lst
+        ├── PMUmissSC.lst
+        ├── PMUmissSG.lst
+        ├── PMUmissSW.lst
+        ├── PMUmissTT.lst
+        ├── PMUmissTTS.lst
+        ├── branch_feature_default.lst
+        ├── node_feature_default.lst
+        ├── F1index/
+        ├── ENN32BNN64GAT3H2LR.0001Enc1.pth    
+        ├── ENN32BNN64GAT3H2LR.0001Enc0.enc    
+        ├── TestingDataset2/
+            ├── AllFeatire_GCN_DPG.nod.csv
+            ├── AllFeatire_GCN_DPL.nod.csv
+            ...
+            ├── AllFeatire_GCN_VM.node.csv
+            ├── EdgeIndex.csv
+            ├── Labels_GCN_Freq.inx.csv
+            ├── N-1FullList.txt
+</pre>
+
+- The Python code is located at [here](AllDataset/TestingOnly/AngleHealthIndex/GAT500b.py).
+- The off-the-shelf model is stored at [here](AllDataset/AngleHealthIndex/). A file with a *.pth* extension denotes the model, while a file with a *.enc* denotes a flag file for the use of the ordinal encoder.
+- Files with a *.lst* extension are stored at [here](AllDataset/TestingOnly/ListFiles/).
+- Files with a *.csv* extension are compressed as a 7z-file locatted at [here](AllDataset/TestingOnly/AngleHealthIndex/).
+
+Please deploy these files referring to the above directory trees.
+
+The Python code allows users to specify:
+
+- Imputation methods (using `--imp`): 0 for zero imputation, 1 for peak value replacement, 2 for pseudo-PMU measurement.
+- Ordinal encoder usage (using `--enc`): `Y` for with ordinal encoder, `N` for without ordinal encoder.
+- Error percentage when the pseudo-PMU measurement method is employed (using `--per`): a range between 0 and 100.
+
+
+These settings can be reflected using the argument of the Python code when running.
+For example, when selecting the pseudo-PMU measurement method with the error percentage of 1\%, please type:
+
+```python GAT800a.py --imp 2 --mdl GAT --enc Y --per 1```
+
+Currently, only GAT models are available on \AllDatset\OffTheShelfModel. *"--mdl GAT"* is typed for using the graph attention network model. 
+
+Please ensure the order of these arguments. The code does not work when the order is different.
+
+#### Angle Health Index (Between Buses 10 and 49)
 
 Here are the directory trees.
 
