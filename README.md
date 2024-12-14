@@ -55,8 +55,8 @@ If you want to examine other PMU coverage scenarios, please change *SW* to the f
 - LD:  missing PMUs at step-down transformers 
 - SC:  missing PMUs at synchronous condensers
 - SG:  missing PMUs at synchronous generators
-- TT:  missing PMUs at primary side ( voltage side) of transformers
-- TTS: missing PMUs at seconday side (lower voltage side
+- TT:  missing PMUs at the primary side (345 kV side) of transformers
+- TTS: missing PMUs at the secondary side (138 kV voltage side) of transformers
 
 #### Frequency Health Index
 
