@@ -58,11 +58,15 @@ If you want to examine other PMU coverage scenarios, please change *SW* to the f
 - *TT*:  missing PMUs at the primary side (345 kV side) of transformers
 - *TTS*: missing PMUs at the secondary side (138 kV voltage side) of transformers
 
-For example, for frequency health index, 2018th line and 2020th line are:
+For example, for the frequency health index, the 2018th line and 2020th line are:
 
 ```tee("PMU missing file is: Sample_Datasets/Freq/PMUmissSW.lst", ConsoleFile)```
 ```shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmissSW.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))```
 
+When we change the missing PMU locations from switching stations to synchronous condensers, the updated 2018th line and 2020th line are:
+
+```tee("PMU missing file is: Sample_Datasets/Freq/PMUmissSC.lst", ConsoleFile)```
+```shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmissSC.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))```
 
 #### Frequency Health Index
 
