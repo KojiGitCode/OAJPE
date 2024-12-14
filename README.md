@@ -115,8 +115,8 @@ Here are the directory trees.
         ├── branch_feature_default.lst
         ├── node_feature_default.lst
         ├── F1index/
-            ├── ENN32BNN64GATH4LR0.0001Enc1A.pth    
-            ├── ENN32BNN64GATH4LR0.0001Enc1A.enc    
+            ├── ENN32BNN64GAT4H2LR.0001Enc1.pth    
+            ├── ENN32BNN64GAT4H2LR.0001Enc0.enc    
         ├── TestingDataset2/
             ├── AllFeatire_GCN_DPG.nod.csv
             ├── AllFeatire_GCN_DPL.nod.csv
