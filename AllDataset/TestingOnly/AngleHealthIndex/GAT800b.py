@@ -2015,7 +2015,7 @@ else:
     np.save(os.path.join(os.getcwd(),'Sample_Datasets','tmp_files', 'MdlType.npy'), np.array(6))#0:"GCN2",1:"GCN5",2:"GCN6",3:"GCN3",4:"SGA2",5:"SGA3",6:"SGA4",7:"SGA5",8:"GCN4",9:"MLP"
     np.save(os.path.join(temp, 'GATHead.npy'), np.array(2)) # Number of Heads of GAT Model
 np.save(os.path.join(os.getcwd(),'Sample_Datasets','tmp_files', 'GpuID.npy'), np.array(4))       # GPU ID, 4: CPU
-tee("PMU missing file is: ~/IEEE118/Virtual1SW/Sample_Datasets/Angl/PMUmissSW.lst", ConsoleFile)
+tee("PMU missing file is: Sample_Datasets/Angl/PMUmissSW.lst", ConsoleFile)
 os.remove(os.path.join(os.getcwd(),   'Sample_Datasets','Angl','PMUmiss.lst'))
 shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Angl','PMUmissSW.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Angl','PMUmiss.lst'))
 # MANUALLY SPECIFIED ENDS ****************************************************************************************************************************
