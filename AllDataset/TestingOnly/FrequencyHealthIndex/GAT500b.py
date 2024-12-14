@@ -2006,6 +2006,8 @@ tee2("Node feature file name that users will use is ", file_path52, ConsoleFile)
 file_path53 = os.path.join(os.getcwd(),'Sample_Datasets','Freq','branch_feature_default.lst')
 tee2("Branch feature file name that users will use is ", file_path53, ConsoleFile)
 ##global file_pathML
+
+
 # MANUALLY SPECIFIED STARTS **************************************************************************************************************************
 file_pathML = os.path.join(os.getcwd(),'Sample_Datasets','Freq','F1index','ENN32BNN64GAT4H4LR0.0001Enc1A.pth')
 np.save(os.path.join(os.getcwd(),'Sample_Datasets','tmp_files', 'MdlType.npy'), np.array(6))#0:"GCN2",1:"GCN5",2:"GCN6",3:"GCN3",4:"SGA2",5:"SGA3",6:"SGA4",7:"SGA5",8:"GCN4",9:"MLP"
@@ -2013,6 +2015,9 @@ np.save(os.path.join(os.getcwd(),'Sample_Datasets','tmp_files', 'Neuron.npy'), n
 np.save(os.path.join(os.getcwd(),'Sample_Datasets','tmp_files', 'EdgeNeuron.npy'), np.array(32)) # Number of Neurons for Edges
 np.save(os.path.join(os.getcwd(),'Sample_Datasets','tmp_files', 'GpuID.npy'), np.array(0))       # GPU ID, 4: CPU
 np.save(os.path.join(temp, 'GATHead.npy'), np.array(4)) # Number of Heads of GAT Model
+tee("PMU missing file is: Sample_Datasets/Freq/PMUmissSW.lst", ConsoleFile)
+os.remove(os.path.join(os.getcwd(),   'Sample_Datasets','Freq','PMUmiss.lst'))
+shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmissSW.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))
 # MANUALLY SPECIFIED ENDS ****************************************************************************************************************************
 tee2("Loaded ML model will be ", file_pathML, ConsoleFile)
 # PMU Coverage
