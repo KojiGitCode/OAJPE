@@ -60,13 +60,13 @@ If you want to examine other PMU coverage scenarios, please change *SW* to the f
 
 For example, for the frequency health index, the 2018th line and 2020th line are:
 
-    2018. tee("PMU missing file is: Sample_Datasets/Freq/PMUmiss*SW*.lst", ConsoleFile)
-    2020. shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss*SW*.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))
+    2018. tee("PMU missing file is: Sample_Datasets/Freq/PMUmissSW.lst", ConsoleFile)
+    2020. shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmissSW.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))
 
 When we change the missing PMU locations from switching stations to synchronous condensers, the updated 2018th line and 2020th line are:
 
-    2018. tee("PMU missing file is: Sample_Datasets/Freq/PMUmiss*SC*.lst", ConsoleFile)
-    2020. shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss*SC*.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))
+    2018. tee("PMU missing file is: Sample_Datasets/Freq/PMUmissSC.lst", ConsoleFile)
+    2020. shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmissSC.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))
 
 #### Frequency Health Index
 
