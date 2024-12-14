@@ -127,10 +127,10 @@ Here are the directory trees.
             ├── N-1FullList.txt
 </pre>
 
-- The Python code is located at [here](AllDataset/TestingOnly/FrequencyHealthIndex/GAT500b.py).
-- The off-the-shelf model is stored at [here](AllDataset/FrequencyHealthIndex/). A file with a *.pth* extension denotes the model, while a file with a *.enc* denotes a flag file for the use of the ordinal encoder.
+- The Python code is located at [here](AllDataset/TestingOnly/AngleHealthIndex/GAT500b.py).
+- The off-the-shelf model is stored at [here](AllDataset/AngleHealthIndex/). A file with a *.pth* extension denotes the model, while a file with a *.enc* denotes a flag file for the use of the ordinal encoder.
 - Files with a *.lst* extension are stored at [here](AllDataset/TestingOnly/ListFiles/).
-- Files with a *.csv* extension are compressed as a 7z-file locatted at [here](AllDataset/TestingOnly/FrequencyHealthIndex/).
+- Files with a *.csv* extension are compressed as a 7z-file locatted at [here](AllDataset/TestingOnly/AngleHealthIndex/).
 
 Please deploy these files referring to the above directory trees.
 
@@ -144,7 +144,7 @@ The Python code allows users to specify:
 These settings can be reflected using the argument of the Python code when running.
 For example, when selecting the pseudo-PMU measurement method with the error percentage of 1\%, please type:
 
-```python GAT500.py --imp 2 --mdl GAT --enc Y --per 1```
+```python GAT800b.py --imp 2 --mdl GAT --enc Y --per 1```
 
 Currently, only GAT models are available on \AllDatset\OffTheShelfModel. *"--mdl GAT"* is typed for using the graph attention network model. 
 
