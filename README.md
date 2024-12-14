@@ -51,12 +51,18 @@ Python codes for testing are available:
 - GAT800a.py: For Angle Health Index (Between Buses 10-12) with Missing PMUs at Switching Stations
 - GAT800b.py: For Angle Health Index (Between Buses 10-49) with Missing PMUs at Switching Stations 
 
-If you want to examine other PMU coverage scenarios, please change *SW* to the following letters:
-- LD:  missing PMUs at step-down transformers 
-- SC:  missing PMUs at synchronous condensers
-- SG:  missing PMUs at synchronous generators
-- TT:  missing PMUs at the primary side (345 kV side) of transformers
-- TTS: missing PMUs at the secondary side (138 kV voltage side) of transformers
+If you want to examine other PMU coverage scenarios, please change *SW* to the following letters in 2018th and 2020th lines:
+- *LD*:  missing PMUs at step-down transformers 
+- *SC*:  missing PMUs at synchronous condensers
+- *SG*:  missing PMUs at synchronous generators
+- *TT*:  missing PMUs at the primary side (345 kV side) of transformers
+- *TTS*: missing PMUs at the secondary side (138 kV voltage side) of transformers
+
+For example, for frequency health index, 2018th line and 2020th line are:
+
+```tee("PMU missing file is: Sample_Datasets/Freq/PMUmissSW.lst", ConsoleFile)```
+```shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmissSW.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))```
+
 
 #### Frequency Health Index
 
