@@ -46,6 +46,18 @@ There are two Python codes for the frequency health index and angle health index
 - Power flow results are available [here](AllDataset/PowerFlowSnapshot/). 
 
 ### Detailed Testing Procedure
+Python codes for testing are available:
+- GAT500b.py: For Frequency Health Index with Missing PMUs at Switcing Stations
+- GAT800a.py: For Angle Health Index (Between Buses 10-12) with Missing PMUs at Switching Stations
+- GAT800b.py: For Angle Health Index (Between Buses 10-49) with Missing PMUs at Switching Stations 
+
+If you want to examine other PMU coverage scenarios, please change *SW* to the following letters:
+- LD:  missing PMUs at step-down transformers 
+- SC:  missing PMUs at synchronous condensers
+- SG:  missing PMUs at synchronous generators
+- TT:  missing PMUs at primary side ( voltage side) of transformers
+- TTS: missing PMUs at seconday side (lower voltage side
+
 #### Frequency Health Index
 
 Here are the directory trees.
