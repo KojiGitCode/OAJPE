@@ -81,7 +81,7 @@ When we change the missing PMU locations from switching stations to synchronous 
     2020. shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmissSC.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))
 
 ---
-#### a) Testing Frequency Health Index
+#### a) <u>Testing Frequency Health Index</u>
 
 Here are the directory trees.
 
