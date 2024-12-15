@@ -65,6 +65,8 @@ Python codes for testing are available:
 - GAT500.angle1012.py: For Training Angle Health Index (Between Buses 10-12)P rediction Model
 - GAT500.angle1049.py: For Training Angle Health Index (Between Buses 10-49) Prediction Model
 
+Warning: When running in GPU mode instead of CPU mode, please ensure that your GPU has at least 48 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
+
 
 ### Detailed Testing Procedure
 Python codes for testing are available:
