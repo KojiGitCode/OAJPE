@@ -61,7 +61,10 @@ There are two Python codes for the frequency health index and angle health index
 ### Detailed Training Procedure
 #### Frequency Health Index
 Python codes for testing are available:
-- GAT500,freq.py: For Training Frequency Health Index Prediction Model
+- GAT500.freq.py: For Training Frequency Health Index Prediction Model
+- GAT500.angle1012.py: For Training Angle Health Index (Between Buses 10-12)P rediction Model
+- GAT500.angle1049.py: For Training Angle Health Index (Between Buses 10-49) Prediction Model
+
 
 ### Detailed Testing Procedure
 Python codes for testing are available:
