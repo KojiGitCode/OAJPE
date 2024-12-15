@@ -59,12 +59,15 @@ There are two Python codes for the frequency health index and angle health index
 - Power flow results are available [here](AllDataset/PowerFlowSnapshot/). 
 
 ### Detailed Training Procedure
-#### Frequency Health Index
 Python codes for testing are available:
 - GAT500.freq.py: For Training Frequency Health Index Prediction Model
-- GAT500.angle1012.py: For Training Angle Health Index (Between Buses 10-12)P rediction Model
+- GAT500.angle1012.py: For Training Angle Health Index (Between Buses 10-12) Prediction Model
 - GAT500.angle1049.py: For Training Angle Health Index (Between Buses 10-49) Prediction Model
 
+#### Frequency Health Index
+To train the frequency health index model, please type:
+
+```python GAT500.freq.py```
 Warning: When running in GPU mode instead of CPU mode, please ensure that your GPU has at least 48 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
 
 
