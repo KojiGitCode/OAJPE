@@ -83,13 +83,15 @@ Here are the directory trees.
             ├── EdgeIndex.csv
             ├── Labels_GCN_Freq.inx.csv
             ├── N-1FullList.txt
+    ├── Logs/
 </pre>
 
 To train the frequency health index model, please type:
 
 ```python GAT500.freq.py```
 
-Warning: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 48 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
++ Warning 1: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 48 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
++ Warning 2: The folder named **Logs** is automatically created if it does not already exist.
 
 #### Angle Health Index
 
@@ -111,6 +113,7 @@ Here are the directory trees.
             ├── EdgeIndex.csv
             ├── Labels_GCN_Freq.inx.csv
             ├── N-1FullList.txt
+    ├── Logs/
 </pre>
 
 To train the frequency health index model, please type:
@@ -118,7 +121,8 @@ To train the frequency health index model, please type:
 ```python GAT500.angl1012.py```
 ```python GAT500.angl1049.py```
 
-Warning: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 48 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
++ Warning 1: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 48 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
++ Warning 2: The folder named **Logs** is automatically created if it does not already exist.
 
 ### Detailed Testing Procedure
 Python codes for testing are available:
