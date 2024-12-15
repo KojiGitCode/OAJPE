@@ -9,7 +9,7 @@
 - Initial release with basic functionality.
 
 ### Forthcoming
-- Python code for [specific purpose].
+- Python code for training angle health indices.
 
 ![Single Line Diagram](images/IEEE118-Diagram.png)
 
@@ -80,7 +80,7 @@ When we change the missing PMU locations from switching stations to synchronous 
     2018. tee("PMU missing file is: Sample_Datasets/Freq/PMUmissSC.lst", ConsoleFile)
     2020. shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmissSC.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))
 
-#### Frequency Health Index
+#### Testing Frequency Health Index
 
 Here are the directory trees.
 
@@ -132,7 +132,7 @@ Currently, only GAT models are available on \AllDatset\OffTheShelfModel. *"--mdl
 
 Please ensure the order of these arguments. The code does not work when the order is different.
 
-#### Angle Health Index (Between Buses 10 and 12)
+#### Testing Angle Health Index (Between Buses 10 and 12)
 
 Here are the directory trees.
 
@@ -184,7 +184,7 @@ Currently, only GAT models are available on \AllDatset\OffTheShelfModel. *"--mdl
 
 Please ensure the order of these arguments. The code does not work when the order is different.
 
-#### Angle Health Index (Between Buses 10 and 49)
+#### Testing Angle Health Index (Between Buses 10 and 49)
 
 Here are the directory trees.
 
