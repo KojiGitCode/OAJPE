@@ -1,7 +1,11 @@
 # Machine Learning Datasets and Models for Grid Health Index Prediction Using Graph Attention (GAT) Models
 
-[![Version](https://img.shields.io/badge/version-v1.2.3-blue)])
+[![Version](https://img.shields.io/badge/version-v0.9.0-blue)]
 [![Status](https://img.shields.io/badge/status-active-brightgreen)]
+
+- **Current Version**: v0.9.0
+- **Last Updated**: Dec 14, 2024
+- **Forthcoming Change**: Python Code for Angle Health Index.
 
 ![Single Line Diagram](images/IEEE118-Diagram.png)
 
