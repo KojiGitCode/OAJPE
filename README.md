@@ -91,6 +91,34 @@ To train the frequency health index model, please type:
 
 Warning: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 48 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
 
+#### Angle Health Index
+
+Here are the directory trees.
+
+<pre style="line-height: 1;">
+    GAT500.angle1012.py
+    GAT500.angle1049.py
+    Sample_Datasets/
+    ├── Angl/
+        ├── branch_feature_default.lst
+        ├── node_feature_default.lst
+        ├── A0index/
+        ├── TrainingDataset/
+            ├── AllFeatire_GCN_DPG.nod.csv
+            ├── AllFeatire_GCN_DPL.nod.csv
+            ...
+            ├── AllFeatire_GCN_VM.node.csv
+            ├── EdgeIndex.csv
+            ├── Labels_GCN_Freq.inx.csv
+            ├── N-1FullList.txt
+</pre>
+
+To train the frequency health index model, please type:
+
+```python GAT500.angl1012.py```
+```python GAT500.angl1049.py```
+
+Warning: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 48 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
 
 ### Detailed Testing Procedure
 Python codes for testing are available:
