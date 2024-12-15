@@ -80,9 +80,9 @@ When we change the missing PMU locations from switching stations to synchronous 
     2018. tee("PMU missing file is: Sample_Datasets/Freq/PMUmissSC.lst", ConsoleFile)
     2020. shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmissSC.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))
 
-
-#### Testing Frequency Health Index
 ---
+a) #### Testing Frequency Health Index
+
 Here are the directory trees.
 
 <pre style="line-height: 1;">
