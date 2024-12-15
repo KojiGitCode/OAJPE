@@ -1,4 +1,8 @@
 # Machine Learning Datasets and Models for Grid Health Index Prediction Using Graph Attention (GAT) Models
+
+[![Version](https://img.shields.io/badge/version-v1.2.3-blue)])
+[![Status](https://img.shields.io/badge/status-active-brightgreen)]
+
 ![Single Line Diagram](images/IEEE118-Diagram.png)
 
 ## Table of Contents
