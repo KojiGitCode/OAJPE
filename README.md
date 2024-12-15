@@ -57,6 +57,11 @@ There are two Python codes for the frequency health index and angle health index
 - The impedance data is available [here](AllDataset/PowerFlowSnapshot/SystemData.txt). Note that all data are based on per unit with a 100 MVA base.  
 - Power flow results are available [here](AllDataset/PowerFlowSnapshot/). 
 
+### Detailed Training Procedure
+#### Frequency Health Index
+Python codes for testing are available:
+- GAT500,freq.py: For Training Frequency Health Index Prediction Model
+
 ### Detailed Testing Procedure
 Python codes for testing are available:
 - GAT500b.py: For Frequency Health Index with Missing PMUs at Switcing Stations
@@ -81,7 +86,7 @@ When we change the missing PMU locations from switching stations to synchronous 
     2020. shutil.copy2(os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmissSC.lst'), os.path.join(os.getcwd(),'Sample_Datasets','Freq','PMUmiss.lst'))
 
 ---
-#### a) <u>Testing Frequency Health Index</u>
+#### a) Testing Frequency Health Index
 
 Here are the directory trees.
 
