@@ -9,7 +9,7 @@
 - Initial release with basic functionality.
 
 ### Forthcoming
-- ...
+- Proofreading ...
 
 ![Single Line Diagram](images/IEEE118-Diagram.png)
 
@@ -24,7 +24,9 @@
     - [Detailed Training Procedure](#detailed-training-procedure)  
         - [a) Frequency Health Index](#a-frequency-health-index)  
         - [b) Angle Health Index](#b-angle-health-index)  
-    - [Detailed Testing Procedure](#detailed-testing-procedure)  
+    - [Detailed Testing Procedure](#detailed-testing-procedure)
+        - [a) Frequency Health Index](#a-frequency-health-index)  
+        - [b) Angle Health Index](#b-angle-health-index)  
     - [Dynamic Simulation](#dynamic-simulation)
 5. [Contributing](#contributing)
 6. [License](#license)
