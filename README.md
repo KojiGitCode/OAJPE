@@ -9,7 +9,8 @@
 - Initial release with basic functionality.
 
 ### Forthcoming
-- Proofreading ...
+- **Proofreading and Editing**: The content will undergo detailed proofreading to ensure clarity, grammar, and correctness.  
+- **Formatting Refinement**: Improvements to the visual structure and layout for better readability and navigation.  
 
 ![Single Line Diagram](images/IEEE118-Diagram.png)
 
