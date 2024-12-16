@@ -67,7 +67,7 @@ Python codes for testing are available:
 - GAT500.angle1012.py: For Training Angle Health Index (Between Buses 10-12) Prediction Model
 - GAT500.angle1049.py: For Training Angle Health Index (Between Buses 10-49) Prediction Model
 
-#### Frequency Health Index
+#### a) Frequency Health Index
 
 Here are the directory trees.
 
@@ -96,7 +96,7 @@ To train the frequency health index model, please type:
 + Warning 1: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 48 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
 + Warning 2: The folder named **Logs** is automatically created if it does not already exist.
 
-#### Angle Health Index
+#### b) Angle Health Index
 
 Here are the directory trees.
 
