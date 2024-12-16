@@ -5,7 +5,7 @@
 
 ## Changelog
 
-### v0.9.0
+### v0.9.5
 - Initial release with basic functionality.
 
 ### Forthcoming
@@ -98,8 +98,8 @@ To train the frequency health index model, please type:
 Here are the directory trees.
 
 <pre style="line-height: 1;">
-    GAT500.angle1012.py
-    GAT500.angle1049.py
+    GAT600.angle1012.py
+    GAT600.angle1049.py
     Sample_Datasets/
     ├── Angl/
         ├── branch_feature_default.lst
@@ -120,7 +120,7 @@ Here are the directory trees.
 
 To train the angle health index model between Buses 10-12, please type:
 
-```python GAT500.angl1012.py```
+```python GAT600.angl1012.py```
 
 + Note 1: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 24 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
 + Note 2: The folder named **Logs** is automatically created if it does not already exist.
@@ -136,7 +136,7 @@ To train the angle health index model between Buses 10-12, please type:
 
 To train the angle health index model between Buses 10-49, please type:
 
-```python GAT500.angl1049.py```
+```python GAT600.angl1049.py```
 
 + Note 1: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 18 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
 + Note 2: The folder named **Logs** is automatically created if it does not already exist.
