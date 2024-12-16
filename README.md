@@ -116,13 +116,15 @@ Here are the directory trees.
     ├── Logs/
 </pre>
 
+##### Angle Difference Between Buses 10 and 12
+
 To train the angle health index model between Buses 10-12, please type:
 
 ```python GAT500.angl1012.py```
 
 + Note 1: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 24 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
 + Note 2: The folder named **Logs** is automatically created if it does not already exist.
-+ Note 3: This Python code is for the Graph Attention network model for angle difference between Buses 10 and 12 using following hyperparameters:
++ Note 3: This Python code is for the Graph Attention network model for angle difference between Buses 10 and 12 using the following hyperparameters:
     + Number of node neurons: 64
     + Number of edge neurons: 32
     + Number of hidden layers: 3
@@ -130,13 +132,21 @@ To train the angle health index model between Buses 10-12, please type:
     + Learning rate: 0.0001
     + Optimizer: Adamax
 
+##### Angle Difference Between Buses 10 and 49
 
 To train the angle health index model between Buses 10-49, please type:
 
 ```python GAT500.angl1049.py```
 
-+ Warning 1: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 18 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
-+ Warning 2: The folder named **Logs** is automatically created if it does not already exist.
++ Note 1: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 18 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
++ Note 2: The folder named **Logs** is automatically created if it does not already exist.
++ Note 3: This Python code is for the Graph Attention network model for angle difference between Buses 10 and 12 using the following hyperparameters:
+    + Number of node neurons: 64
+    + Number of edge neurons: 32
+    + Number of hidden layers: 4
+    + Number of heads: 2
+    + Learning rate: 0.0001
+    + Optimizer: Adamax
 
 ### Detailed Testing Procedure
 Python codes for testing are available:
