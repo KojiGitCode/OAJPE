@@ -5,11 +5,11 @@
 
 ## Changelog
 
-### v0.9.5
+### v0.9.8
 - Initial release with basic functionality.
 
 ### Forthcoming
-- Python code for training angle health indices.
+- ...
 
 ![Single Line Diagram](images/IEEE118-Diagram.png)
 
