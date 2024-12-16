@@ -116,12 +116,15 @@ Here are the directory trees.
     ├── Logs/
 </pre>
 
-To train the frequency health index model, please type:
+To train the angle health index model between Buses 10-12, please type:
 
 ```python GAT500.angl1012.py```
+
+To train the angle health index model between Buses 10-49, please type:
+
 ```python GAT500.angl1049.py```
 
-+ Warning 1: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 48 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
++ Warning 1: When running in GPU mode instead of CPU mode, please make sure that your GPU has at least 24 GB of memory. Insufficient GPU memory may cause the program to terminate unexpectedly before completing the training process.
 + Warning 2: The folder named **Logs** is automatically created if it does not already exist.
 
 ### Detailed Testing Procedure
